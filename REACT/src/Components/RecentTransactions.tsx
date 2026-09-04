@@ -9,10 +9,7 @@ interface Props {
 const RecentTransactions = ({ title, amount, spent_at }: Props) => {
     return (
         <div className="mt-5 w-90">
-            <div className="flex justify-between mb-2">
-                <h3 className="font-bold">Recent Transactions</h3>
-                <a href="/viewAll" className="text-accent text-sm">View All</a>
-            </div>
+            
 
             <div className="flex justify-between rounded-lg bg-surface p-3">
                 <div className="flex flex-col">
